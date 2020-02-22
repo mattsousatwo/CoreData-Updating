@@ -8,8 +8,8 @@
 
 import UIKit
 import CoreData
-
-class ViewController: UIViewController {
+ 
+class ViewController: UIViewController { 
     
     @IBOutlet weak var textField: UITextField!
     
@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         addDoneButton(to: textField, action: nil)
         
+            // inital commit
+        
         configure()
     }
 
@@ -43,7 +45,7 @@ class ViewController: UIViewController {
     }
     
     func fetchUser() {
-        let request: NSFetchRequest<User> = User.fetchRequest()
+//        let request: NSFetchRequest<User> = User.fetchRequest()
         
         
     }
